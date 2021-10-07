@@ -1,5 +1,5 @@
-div {
-    background-image: url('https://wallpaperaccess.com/full/1258628.jp');
+body {
+    background-image: url('https://wallpaperaccess.com/full/1258628.jpg');
    height:100%; 
     background-repeat: no-repeat;
    background-attachment: fixed; 
@@ -7,8 +7,7 @@ div {
     border: 0px solid black;
    z-index:-1;
   }
-    <div class='section content'>
-    <img class='illustration' src='images/illustration.svg' />
+
     * {
         box-sizing: border-box;
       }
