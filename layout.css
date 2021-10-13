@@ -23,7 +23,6 @@ margin-right: auto;
     float: left;
     width: 70%;
     height: 300px; /* only for demonstration, should be removed */
-    overflow:hidden;
     background: #ccc;
     padding: 20px;
   }
@@ -38,7 +37,6 @@ margin-right: auto;
     float: left;
     padding: 20px;
     width: 30%;
-    overflow:hidden;
     background-color: #ffccff;
     height: 600px; /* only for demonstration, should be removed */
   }
@@ -63,7 +61,6 @@ margin-right: auto;
     float: left;
     padding: 20px;
     width: 70%;
-    overflow:hidden;
     background-color: #f1f1f1;
     height: 300px;
 }
