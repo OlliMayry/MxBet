@@ -58,7 +58,7 @@ margin-right: auto;
 
   /* Style aside*/
   aside {
-    float: right;
+    float: left;
     padding: 20px;
     width: 70%;
     background-color: #ccc;
