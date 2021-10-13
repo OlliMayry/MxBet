@@ -37,8 +37,8 @@ margin-right: auto;
     float: left;
     padding: 20px;
     width: 30%;
-    background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+    background-color: #ffccff;
+    height: 600px; /* only for demonstration, should be removed */
   }
   
   /* Clear floats after the columns */
