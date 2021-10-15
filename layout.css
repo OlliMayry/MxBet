@@ -60,10 +60,10 @@ margin-right: auto;
   aside {
     float: left;
     padding: 20px;
-    width: 70%;
+    width: 60%;
     background-color: #f1f1f1;
     height: 300px;
-    top: 300px;
+    top: 550px;
     position:absolute;
 }
 
