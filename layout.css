@@ -64,6 +64,7 @@ margin-right: auto;
     background-color: #f1f1f1;
     height: 300px;
     top:-300px;
+    position:absolute;
 }
 
   
