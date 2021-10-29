@@ -8,10 +8,7 @@
     border-radius: 25px;
     Background-color:black;
     color:white;
-    margin: 0 auto; /* Added */
-    float: none; /* Added */
-    margin-bottom: 10px; /* Added */
-}
+  }
 
 
   @media (max-width: 600px) {
