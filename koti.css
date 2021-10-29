@@ -9,9 +9,7 @@
     Background-color:black;
     color:white;
 }
-.img{
-    border-radius: 25px;
-}
+
 
   @media (max-width: 600px) {
     nav, article, aside {
