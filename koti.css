@@ -8,10 +8,11 @@
     border-radius: 25px;
     Background-color:black;
     color:white;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
 }
-.img-scr{
-    border-radius: 50px;
-}
+
 
   @media (max-width: 600px) {
     nav, article, aside {
