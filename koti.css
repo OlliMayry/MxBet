@@ -19,6 +19,9 @@
     display: table;
     clear: both;
   }
+  .card {display:inline-block;
+}
+
   @media (max-width: 600px) {
     nav, article, aside {
       width: 100%;
