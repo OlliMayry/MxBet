@@ -1,4 +1,5 @@
 .container{
-    background-color: rgb(255, 0, 234);
+    border-radius: 25px;
+    background-color: rgba(253, 0, 232, 0.664);
     color:white
 }
