@@ -4,10 +4,13 @@
     color:white
 }
 
-  .card {display:inline-block;
+  .card {
+    display:inline-block;
     border-radius: 25px;
     Background-color:black;
     color:white;
+    box-sizing: content-box;
+width: 100%;
   }
   .card-img-top {
     width: 100%;
