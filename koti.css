@@ -5,6 +5,9 @@
 }
 
   .card {display:inline-block;
+    border-radius: 25px;
+    Background-color:black;
+    color:white;
 }
 
   @media (max-width: 600px) {
