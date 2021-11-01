@@ -20,7 +20,7 @@ margin: 15px;
     height: 30vh;
     object-fit: contain;
     }
-.footer{
+.container2{
   background-color: black;
 }
   @media (max-width: 600px) {
