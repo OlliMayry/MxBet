@@ -18,11 +18,10 @@ width: 100%;
     object-fit: contain;
     }
 
-/*
+
   @media (max-width: 600px) {
     nav, article, aside, {
       width: 100%;
       height: auto;
     }
 }
-/*
