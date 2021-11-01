@@ -21,8 +21,7 @@ margin: 15px;
     object-fit: contain;
     }
 .footer{
-  background-color: #f1f1f1;
-  color:black;
+  background-color: black;
 }
   @media (max-width: 600px) {
     nav, article, aside, {
