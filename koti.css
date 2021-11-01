@@ -20,7 +20,9 @@ margin: 15px;
     height: 30vh;
     object-fit: contain;
     }
-
+.footer{
+  background-color: #f1f1f1;
+}
   @media (max-width: 600px) {
     nav, article, aside, {
       width: 100%;
