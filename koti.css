@@ -3,7 +3,9 @@
     background-color:black;
     color:white
 }
-
+.row{
+  margin: 25px;
+}
   .card {
     display:inline-block;
     border-radius: 25px;
