@@ -12,10 +12,10 @@ float:right;
 .row{
     margin: 10px;
     float: right;
-    top: 85px;
+    top: 90px;
     width:78%;
     position:absolute;
-    left: 290px;
+    left: 280px;
   }
     .card {
         display:inline-block;
