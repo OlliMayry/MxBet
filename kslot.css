@@ -13,13 +13,16 @@ float:right;
     margin: 10px;
   }
     .card {
-      display:inline-block;
-      border-radius: 25px;
-      Background-color:black;
-      color:white;
-      box-sizing: content-box;
-  width: 100%;
-  margin: 15px;
+        display:inline-block;
+        margin: 0px auto;
+        position: relative;
+        left: auto;
+        padding-top:0px;
+        width:78%;
+        float:right;
+            border-radius: 25px;
+            background-color:black;
+            color:white
     }
     .card-img-top {
       width: 100%;
