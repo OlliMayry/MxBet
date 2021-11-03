@@ -1,6 +1,10 @@
 .container{
-    position: absolute;
-  top: 0;
+    margin: 0px auto;
+position: relative;
+left: 750px;
+padding-top:0px;
+width:240px;
+float:right;
     border-radius: 25px;
     background-color:black;
     color:white
