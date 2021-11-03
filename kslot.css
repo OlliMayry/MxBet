@@ -3,6 +3,60 @@
     background-color:black;
     color:white
 }
+@-webkit-keyframes swing {
+    0%, 30%, 50%, 70%, 100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg); }
+    10% {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg); }
+    40% {
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg); }
+    60% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg); }
+    80% {
+      -webkit-transform: rotate(-5deg);
+      transform: rotate(-5deg); } }
+  
+  @keyframes swing {
+    0%, 30%, 50%, 70%, 100% {
+      -webkit-transform: rotate(0deg);
+      transform: rotate(0deg); }
+    10% {
+      -webkit-transform: rotate(10deg);
+      transform: rotate(10deg); }
+    40% {
+      -webkit-transform: rotate(-10deg);
+      transform: rotate(-10deg); }
+    60% {
+      -webkit-transform: rotate(5deg);
+      transform: rotate(5deg); }
+    80% {
+      -webkit-transform: rotate(-5deg);
+      transform: rotate(-5deg); } }
+  
+  @-webkit-keyframes sonar {
+    0% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      opacity: 1; }
+    100% {
+      -webkit-transform: scale(2);
+      transform: scale(2);
+      opacity: 0; } }
+  
+  @keyframes sonar {
+    0% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+      opacity: 1; }
+    100% {
+      -webkit-transform: scale(2);
+      transform: scale(2);
+      opacity: 0; } }
+  
   .sidebar-wrapper {
     width: 280px;
     height: 100%;
@@ -314,3 +368,130 @@
   
   body {
     font-size: .9rem; }
+  
+  /*----------------page-wrapper----------------*/
+  .page-wrapper {
+    height: 100vh; }
+    .page-wrapper .theme {
+      width: 40px;
+      height: 40px;
+      display: inline-block;
+      margin: 2px;
+      background-size: cover; }
+    .page-wrapper .theme.selected {
+      border: 2px solid #00c7ff; }
+    .page-wrapper .theme.default-theme {
+      background: #1d1d1d; }
+    .page-wrapper .theme.chiller-theme {
+      background: #374140; }
+    .page-wrapper .theme.legacy-theme {
+      background: #2e333c; }
+    .page-wrapper .theme.ice-theme {
+      background: #3a4d56; }
+    .page-wrapper .theme.cool-theme {
+      background: #46454c; }
+    .page-wrapper .theme.light-theme {
+      background: #ececec; }
+    .page-wrapper .page-content {
+      display: inline-block;
+      width: 100%;
+      -webkit-transition: padding-left .3s ease;
+      transition: padding-left .3s ease;
+      overflow-x: hidden; }
+      .page-wrapper .page-content .overlay {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 998;
+        background: #000;
+        opacity: .5;
+        display: none; }
+    .page-wrapper.toggled .sidebar-wrapper {
+      left: 0px; }
+    @media screen and (min-width: 768px) {
+      .page-wrapper.toggled .page-content {
+        padding-left: 280px; } }
+    @media screen and (max-width: 768px) {
+      .page-wrapper.toggled .page-content .overlay {
+        display: block; } }
+    @media screen and (min-width: 768px) {
+      .page-wrapper.toggled.pinned .page-content {
+        padding-left: 80px; } }
+    .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper {
+      width: 80px; }
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-header {
+        padding: 10px; }
+        .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-header .user-pic {
+          margin: 0 auto;
+          width: 50px;
+          float: none; }
+          .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-header .user-pic img {
+            margin: auto; }
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-search input,
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-header .user-info,
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-menu .header-menu,
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-menu .sidebar-submenu,
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-menu ul > li > a > span,
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-menu ul > li > a::after,
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-footer > div:not(.pinned-footer) {
+        display: none !important; }
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-search .input-group-text {
+        height: 35px; }
+      .page-wrapper.pinned:not(.sidebar-hovered) .sidebar-wrapper .sidebar-footer > div.pinned-footer {
+        display: block; }
+    .page-wrapper .mCSB_scrollTools {
+      width: 6px; }
+    .page-wrapper .mCSB_inside > .mCSB_container {
+      margin-right: 0px; }
+  
+  /*----------sidebar background images --------------*/
+  .sidebar-bg.bg1 .sidebar-wrapper {
+    background-image: url(../img/bg1.jpg); }
+  
+  .sidebar-bg.bg2 .sidebar-wrapper {
+    background-image: url(../img/bg2.jpg); }
+  
+  .sidebar-bg.bg3 .sidebar-wrapper {
+    background-image: url(../img/bg3.jpg); }
+  
+  .sidebar-bg.bg4 .sidebar-wrapper {
+    background-image: url(../img/bg4.jpg); }
+  
+  [data-bg="bg1"] {
+    background-image: url(../img/bg1.jpg); }
+  
+  [data-bg="bg2"] {
+    background-image: url(../img/bg2.jpg); }
+  
+  [data-bg="bg3"] {
+    background-image: url(../img/bg3.jpg); }
+  
+  [data-bg="bg4"] {
+    background-image: url(../img/bg4.jpg); }
+  
+  /*---- border-radius ------*/
+  .border-radius-on .sidebar-header .user-pic {
+    border-radius: 12px; }
+  
+  .border-radius-on .badge {
+    border-radius: 8px; }
+  
+  .border-radius-on .sidebar-menu ul li i {
+    border-radius: 4px; }
+  
+  .border-radius-on .sidebar-footer .dropdown-menu {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px; }
+    .border-radius-on .sidebar-footer .dropdown-menu .notification-content i,
+    .border-radius-on .sidebar-footer .dropdown-menu .message-content .pic {
+      border-radius: 4px; }
+  
+  .border-radius-on .sidebar-search input {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+  
+  .border-radius-on .sidebar-search .input-group-append .input-group-text {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; }
