@@ -7,12 +7,15 @@ width:78%;
 float:right;
     border-radius: 25px;
     background-color:black;
-    color:white
+    color:white;
 }
 .container2{
   position: absolute;
   left: 280px;
   top: 95px;
+  border-radius: 25px;
+    background-color:black;
+    color:white;
 }
 
 @-webkit-keyframes swing {
