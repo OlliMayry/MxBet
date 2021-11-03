@@ -10,6 +10,7 @@ float:right;
     color:white;
 }
 .container2{
+  margin:10px;
   position: absolute;
   left: 280px;
   top: 95px;
