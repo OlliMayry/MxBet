@@ -1,9 +1,9 @@
 .container{
     margin: 0px auto;
 position: relative;
-left: 750px;
+left: auto;
 padding-top:0px;
-width:240px;
+width:auto;
 float:right;
     border-radius: 25px;
     background-color:black;
