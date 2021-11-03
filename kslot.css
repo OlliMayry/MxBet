@@ -14,6 +14,7 @@ float:right;
     float: right;
     top:0px;
     width:78%;
+    position:absolute;
   }
     .card {
         display:inline-block;
