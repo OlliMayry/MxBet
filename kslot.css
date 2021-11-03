@@ -3,60 +3,6 @@
     background-color:black;
     color:white
 }
-@-webkit-keyframes swing {
-    0%, 30%, 50%, 70%, 100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg); }
-    10% {
-      -webkit-transform: rotate(10deg);
-      transform: rotate(10deg); }
-    40% {
-      -webkit-transform: rotate(-10deg);
-      transform: rotate(-10deg); }
-    60% {
-      -webkit-transform: rotate(5deg);
-      transform: rotate(5deg); }
-    80% {
-      -webkit-transform: rotate(-5deg);
-      transform: rotate(-5deg); } }
-  
-  @keyframes swing {
-    0%, 30%, 50%, 70%, 100% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg); }
-    10% {
-      -webkit-transform: rotate(10deg);
-      transform: rotate(10deg); }
-    40% {
-      -webkit-transform: rotate(-10deg);
-      transform: rotate(-10deg); }
-    60% {
-      -webkit-transform: rotate(5deg);
-      transform: rotate(5deg); }
-    80% {
-      -webkit-transform: rotate(-5deg);
-      transform: rotate(-5deg); } }
-  
-  @-webkit-keyframes sonar {
-    0% {
-      -webkit-transform: scale(0.9);
-      transform: scale(0.9);
-      opacity: 1; }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0; } }
-  
-  @keyframes sonar {
-    0% {
-      -webkit-transform: scale(0.9);
-      transform: scale(0.9);
-      opacity: 1; }
-    100% {
-      -webkit-transform: scale(2);
-      transform: scale(2);
-      opacity: 0; } }
-  
   .sidebar-wrapper {
     width: 280px;
     height: 100%;
