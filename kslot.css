@@ -9,6 +9,24 @@ float:right;
     background-color:black;
     color:white
 }
+.row{
+    margin: 10px;
+  }
+    .card {
+      display:inline-block;
+      border-radius: 25px;
+      Background-color:black;
+      color:white;
+      box-sizing: content-box;
+  width: 100%;
+  margin: 15px;
+    }
+    .card-img-top {
+      width: 100%;
+      height: 30vh;
+      object-fit: contain;
+      }
+
 @-webkit-keyframes swing {
     0%, 30%, 50%, 70%, 100% {
       -webkit-transform: rotate(0deg);
