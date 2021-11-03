@@ -31,6 +31,14 @@ float:right;
       height: 30vh;
       object-fit: contain;
       }
+      .row2{
+        margin: 10px;
+        float: right;
+        top: 180px;
+        width:75%;
+        position:absolute;
+        left: 280px;
+      }
 
 @-webkit-keyframes swing {
     0%, 30%, 50%, 70%, 100% {
