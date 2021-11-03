@@ -10,10 +10,16 @@ float:right;
     color:white
 }
 .container2{
-float: right;
-position:absolute;
-width: 78%;
-top: 100px;
+  margin: 0px auto;
+  position: relative;
+  top: 100px;
+  left: auto;
+  padding-top:0px;
+  width:78%;
+  float:right;
+      border-radius: 25px;
+      background-color:black;
+      color:white
 }
 
 @-webkit-keyframes swing {
