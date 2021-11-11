@@ -24,7 +24,7 @@ margin: 15px;
   background-color: black;
 }
   @media (max-width: 600px) {
-    container, .container2, row, card, {
+    .container, .container2, .row, .card, {
       width: 100%;
       height: auto;
     }
