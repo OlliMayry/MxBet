@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html>
 <body>
-
+  <div class="container">
 <h1>Tableform</h1>
 
-<form action="/action_page.php">
-  <label for="username">Username:</label>
-  <input type="text" id="username" name="username" required>
-  <label for="username">Password:</label>
-  <input type="text" id="password" name="password" required>
-  <label for="username">Repeat password:</label>
-  <input type="text" id="repeat password" name="repeat password" required>
-  <label for="username">Email address:</label>
-  <input type="text" id="Email" name="Email" required>
-  <input type="submit">
-</form>
+<hr>
+    
+<label for="username"><b>Username</b></label>
+<input type="text" placeholder="Enter Username" name="username" id="username" required>
 
+<label for="email"><b>Email</b></label>
+<input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+<label for="psw"><b>Password</b></label>
+<input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+<label for="psw-repeat"><b>Repeat Password</b></label>
+<input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+<hr>
+<button type="submit" class="registerbtn">Register</button>
+</div>
 </body>
 </html>
