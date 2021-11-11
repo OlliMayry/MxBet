@@ -4,38 +4,48 @@
     <link rel="stylesheet" href="tableform.css">
     <title>Tableform</title>
 <body>
+  <table>
   <div class="container">
 <h1>Tableform</h1>
 
 <hr>
-    
+    <tr>
 <label for="username"><b>Username</b></label>
 <input type="text" placeholder="Enter Username" name="username" id="username" required>
-
+    </tr>
+<tr>
 <label for="username"><b>Name</b></label>
 <input type="text" placeholder="Enter Name" name="frstname" id="fname" required>
+</tr>
 
+<tr>
 <label for="username"><b>Last Name</b></label>
 <input type="text" placeholder="Enter Last Name" name="Lstname" id="lname" required>
-
+</tr>
+<tr>
 <label for="email"><b>Email</b></label>
 <input type="text" placeholder="Enter Email" name="email" id="email" required>
-
+</tr>
+<tr>
 <label for="psw"><b>Password</b></label>
 <input type="text" placeholder="Enter Password" name="psw" id="psw" required>
-
+</tr>
+<tr>
 <label for="psw-repeat"><b>Repeat Password</b></label>
 <input type="text" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+</tr>
 <hr>
-
+<tr>
 <label for="newsletter"> Signup for newsletter</label>
 <input type="checkbox" id="newsletter" name="newsletter" value="letter">
+</tr>
 <hr>
-
+<tr>
 <h2>Textarea</h2>
 <textarea id="txt" name="txt" rows="4" cols="80"></textarea>
+</tr>
 <hr>
-
+<tr>
 <h3>Favourite color</h3>
 <select name="color" id="cars">
   <option value="Green">Green</option>
@@ -43,9 +53,10 @@
   <option value="Blue">Blue</option>
   <option value="Yellow">Yellow</option>
 </select>
-
+</tr>
 <hr>
 <button type="submit" value="Add new user" class="registerbtn">Register</button>
 </div>
+</table>
 </body>
 </html>
