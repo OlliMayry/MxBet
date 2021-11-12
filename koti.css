@@ -12,7 +12,7 @@
     Background-color:black;
     color:white;
     box-sizing: content-box;
-width: 100%;
+/*width: 100%;*/
 margin: 15px;
   }
   .card-img-top {
@@ -23,10 +23,10 @@ margin: 15px;
 .container2{
   background-color: black;
 }
-/*
+
   @media (max-width: 600px) {
     .container, .container2, .row, .card, {
       width: 100%;
       height: auto;
     }
-}*/
+}
