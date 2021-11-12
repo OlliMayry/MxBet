@@ -1,3 +1,6 @@
+{
+  background-image: url('1660313.jpg');
+}
 .container{
   border-radius: 25px;
   background-color:black;
@@ -24,13 +27,7 @@ margin: 15px;
 background-color: black;
 }
 
-.body{
-  background-image: url('1660313.jpg');
-  height:100%; 
-   background-repeat: no-repeat;
-  background-attachment: fixed; 
-   background-size: cover;
-   border: 0px solid black;
-  z-index:-1;
- }
+
+
+ 
   
