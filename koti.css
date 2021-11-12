@@ -15,17 +15,18 @@
 width: 100%;
 margin: 15px;
   }
- /* .card-img-top {
+  .card-img-top {
     width: 100%;
     height: 30vh;
     object-fit: contain;
-    }*/
+    }
 .container2{
   background-color: black;
 }
+/*
   @media (max-width: 600px) {
     .container, .container2, .row, .card, {
       width: 100%;
       height: auto;
     }
-}
+}*/
