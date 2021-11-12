@@ -26,6 +26,11 @@ background-color: black;
 
 .body{
   background-image: url('1660313.jpg');
-
-}
+  height:100%; 
+   background-repeat: no-repeat;
+  background-attachment: fixed; 
+   background-size: cover;
+   border: 0px solid black;
+  z-index:-1;
+ }
   
