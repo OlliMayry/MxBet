@@ -3,6 +3,11 @@
     background-color:black;
     color:white;
 }
+.h1{
+  font-size: 50px;
+  color:rgb(48, 47, 47);
+  text-shadow: 0 0 3px #c700bd;
+}
 .row{
   margin: 10px;
 }
