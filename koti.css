@@ -4,6 +4,15 @@
     color:white;
 }
 
+body {
+  background-image: url('koti.jpg');
+ height:100%; 
+  background-repeat: no-repeat;
+ background-attachment: fixed; 
+  background-size: cover;
+  border: 0px solid black;
+ z-index:-1;
+}
 .row{
   margin: 10px;
 }
