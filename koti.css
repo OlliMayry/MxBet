@@ -3,7 +3,7 @@
     background-color:black;
     color:white;
 }
-header h1 {
+.h1 {
   display: inline;
 }
 .row{
