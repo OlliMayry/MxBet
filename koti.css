@@ -2,10 +2,9 @@
     border-radius: 25px;
     background-color:black;
     color:white;
-    overflow:auto;
-    float:left;
-    position:relative; top: 0.2em; left: 24em;
-    
+}
+header h1 {
+  display: inline;
 }
 .row{
   margin: 10px;
