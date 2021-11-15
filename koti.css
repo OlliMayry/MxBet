@@ -3,12 +3,6 @@
     background-color:black;
     color:white;
 }
-.header-img {
-  float: right
-}
-.header h1 {
-  display: inline;
-}
 .row{
   margin: 10px;
 }
