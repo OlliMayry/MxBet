@@ -22,7 +22,7 @@ a{
     height: 100px;
     font-size: auto;
     transition-property: width, height;
-    transition-duration: 2s;
+    transition-duration: 4s;
   }
 a:hover {
     width: 200px;
