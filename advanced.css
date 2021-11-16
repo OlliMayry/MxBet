@@ -38,4 +38,8 @@ a:hover {
       background-color:black;
       color:white;
     }
+    .container{
+        box-shadow: 5px 10px white;
+        text-shadow: 5px 10px #00a2ff;
+    }
 }
