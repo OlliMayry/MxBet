@@ -1,9 +1,5 @@
 .header{
-    background-color: #9933cc;
-        color: #ffffff;
-        padding: 15px;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px;
-    scrollbar-darkshadow-color: black;
+    box-shadow: 5px 10px #888888;
 }
