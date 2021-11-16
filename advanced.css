@@ -20,7 +20,11 @@ a{
     color: black;
   }
 a:hover {
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
     color: red;
   }
   
