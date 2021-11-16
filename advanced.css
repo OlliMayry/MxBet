@@ -20,7 +20,7 @@ a{
     color: black; 
     width: 100px;
     height: 100px;
-    transition-property: width;
+    transition-property: width, height;
     transition-duration: 2s;
   }
 a:hover {
