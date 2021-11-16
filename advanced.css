@@ -17,14 +17,14 @@
     color:#888888;
 }
 a{
-    color: black;
-  }
-a:hover {
+    color: black; 
     width: 100px;
     height: 100px;
-    background: red;
     transition-property: width;
     transition-duration: 2s;
+  }
+a:hover {
+   
     color: red;
   }
   
