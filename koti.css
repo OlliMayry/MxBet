@@ -12,6 +12,9 @@
 }
 .container:hover {
   box-shadow: 30 40px 35px,purple, (0,0,0,0.3);
+  width: 200px;
+  height: 200px;
+  font-size: 50px;
 }
 
 body {
