@@ -3,6 +3,7 @@
     background-color:black;
     color:white;
     border-style: ridge;
+    border:black, 25px;
 }
 
 body {
