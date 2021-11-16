@@ -3,7 +3,8 @@
     background-color:black;
     color:white;
     border-style: ridge;
-    border:black, 25px;
+    border-width: thick;
+    border-color:burlywood;
 }
 
 body {
