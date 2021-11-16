@@ -13,9 +13,11 @@
   height:auto;
   transition: "mxbet.png" 1s ease-in-out;
   background-image:url("mxbet.png");
+  image: auto;
 }
 
 .img:hover{
+  image: 200px;
   width:150px;
   height: 180px;
   background-image:url("ht9f0BlrhIAu-cool-ball-neon-hd-football-wallpapers.jpg");
