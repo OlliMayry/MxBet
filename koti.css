@@ -11,7 +11,7 @@
   margin:0 auto;
   width:auto;
   height:auto;
-  transition: image 1s ease-in-out;
+  transition: "mxbet.png" 1s ease-in-out;
   background-image:url("mxbet.png");
 }
 
