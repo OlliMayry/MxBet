@@ -25,6 +25,7 @@ a{
     transition-duration: 4s;
   }
 a:hover {
+    transition-duration: 4s;
     width: 200px;
     height: 200px;
     font-size: 50px;
