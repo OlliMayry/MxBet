@@ -43,6 +43,7 @@ body {
     box-sizing: content-box;
 /*width: 100%;*/
 }
+
 .card-group{
   border-radius: 25px;
   background-color: white;
