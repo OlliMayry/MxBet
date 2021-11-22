@@ -24,7 +24,7 @@
 }
 
 body {
- /* background-image: url('koti2.jpg');*/
+ background-image: url('koti2.jpg');
  height:100%; 
   background-repeat: no-repeat;
  background-attachment: fixed; 
@@ -44,6 +44,8 @@ body {
 /*width: 100%;*/
 }
 .card-group{
+  border-radius: 25px;
+  background-color: white;
 margin: 15px;
 border-style: ridge;
 border-width: thick;
