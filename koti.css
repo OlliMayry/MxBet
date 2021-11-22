@@ -47,8 +47,8 @@ body {
 
 .card-group{
   border-radius: 25px;
-  background-color: white;
-margin: 15px;
+  background-color: relative;
+background-position: relative;
 border-style: ridge;
 border-width: thick;
 border-color:burlywood;
