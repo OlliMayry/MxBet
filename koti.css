@@ -37,6 +37,7 @@ body {
 }
   .card {
     display:inline-block;
+    margin:15px;
     border-radius: 25px;
     Background-color:black;
     color:white;
