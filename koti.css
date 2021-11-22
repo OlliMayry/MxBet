@@ -42,6 +42,7 @@ body {
     margin:auto;
 writing-mode: horizontal-tb;
     border-radius: 25px;
+    border-left: 2px;
     background-color:black;
     background-image: auto;
     color:white;
@@ -54,7 +55,6 @@ writing-mode: horizontal-tb;
   border-radius: 25px;
   background-color: relative;
 background-position: relative;
-margin-block-end: 15px;
 border-style: ridge;
 border-width: thick;
 border-color:burlywood;
