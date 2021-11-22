@@ -50,6 +50,7 @@ writing-mode: horizontal-tb;
 }
 
 .card-group{
+  margin-top: 15px;
   border-radius: 25px;
   background-color: relative;
 background-position: relative;
