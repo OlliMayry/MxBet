@@ -42,7 +42,8 @@ body {
     margin:auto;
 writing-mode: horizontal-tb;
     border-radius: 25px;
-    background-image: relative;
+    background-color:black;
+    background-image: auto;
     color:white;
     box-sizing: content-box;
 /*width: 100%;*/
