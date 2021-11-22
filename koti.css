@@ -1,4 +1,5 @@
 .container{
+  margin-top: 15px;
     border-radius: 25px;
     background-color:black;
     color:white;
@@ -71,4 +72,10 @@ background-position: relative;
 .container2{
   background-color: black;
 }
-
+.footer{
+  border-radius: 25px;
+  border-style: ridge;
+border-width: thick;
+border-color:rgb(182, 40, 182);
+box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+}
