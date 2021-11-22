@@ -39,7 +39,7 @@ body {
     display:inline-block;
     margin-inline-start:0px; 
     margin-inline-end:0px; 
-    padding:50px;
+    margin:auto;
 writing-mode: horizontal-tb;
     border-radius: 25px;
     Background-color:black;
