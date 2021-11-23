@@ -30,9 +30,6 @@ writing-mode: horizontal-tb;
   color:white;
   box-sizing: content-box;
 /*width: 100%;*/
-border-style: ridge;
-border-width: thick;
-border-color:whitesmoke;
 }
 .card-img-top {
   width: 100%;
