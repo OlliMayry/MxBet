@@ -4,7 +4,7 @@
   color:white;
   border-style: ridge;
   border-width: thick;
-  border-color:burlywood;
+  border-color:rgb(255, 217, 0);
   box-shadow: 0 1px 2px rgba(0,0,0,0.15);
 }
 .img{
