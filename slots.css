@@ -24,7 +24,7 @@ background-image:url("ht9f0BlrhIAu-cool-ball-neon-hd-football-wallpapers.jpg");
 }
 
 body {
-/*background-image: url('koti2.jpg');*/
+background-image: url('slotbg.jpg');
 height:100%; 
 background-repeat: no-repeat;
 background-attachment: fixed; 
@@ -78,8 +78,7 @@ box-shadow: 0 1px 2px rgba(0,0,0,0.15);
   }
   .col{
     background-color: rgb(29, 27, 27);
-    margin-top: 15px;
-    margin-bottom: 15px;
+    padding-top: 15px;
     border-radius: 25px;
     box-shadow: 10px 10px 10px 10px black;
   }
