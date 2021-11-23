@@ -68,6 +68,7 @@ background-position: relative;
     width: 100%;
     height: 30vh;
     object-fit: contain;
+    border-radius: 25px;
     }
 .container2{
   background-color: black;
