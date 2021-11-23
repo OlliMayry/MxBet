@@ -31,6 +31,7 @@ writing-mode: horizontal-tb;
   box-sizing: content-box;
 /*width: 100%;*/
 margin:10px;
+border:relative;
 }
 .card-img-top {
   width: 100%;
