@@ -21,12 +21,15 @@ margin: 10px;
 }
 .card {
   display:inline-block;
+  margin-inline-start:0px; 
+  margin-inline-end:0px; 
+  margin:auto;
+writing-mode: horizontal-tb;
   border-radius: 25px;
   Background-color:black;
   color:white;
   box-sizing: content-box;
 /*width: 100%;*/
-margin: 10px;
 border-style: ridge;
 border-width: thick;
 border-color:whitesmoke;
