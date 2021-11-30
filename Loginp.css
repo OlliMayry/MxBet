@@ -10,7 +10,8 @@
 .card{
 background-color: black;
 color:white;
-}
-.body{
-color:white;
+border-style: ridge;
+border-width: thick;
+border-color:blue;
+border-radius: 25px;
 }
