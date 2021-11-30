@@ -3,11 +3,13 @@
   line-height: 2.15;
   padding-left: .75em;
   padding-right: .75em;
-  text:white;
 }
 .card-registration .select-arrow {
   top: 13px;
 }
 .card{
 background-color: black;
+}
+.body{
+color:white;
 }
