@@ -41,7 +41,7 @@
                       <input type="text" id="lastName" class="form-control form-control-lg" />
                       <label class="form-label" for="lastName">Password</label>
                     </div>
-<a href="#">Forgot your password?</a>
+<a href="index.php">Forgot your password?</a>
                   </div>
                 </div>
 

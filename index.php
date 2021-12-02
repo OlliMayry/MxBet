@@ -24,13 +24,13 @@
     </div>
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link active" href="koti.html">Home</a>
+        <a class="nav-link active" href="index.php">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Loginp.html">Login</a>
+        <a class="nav-link" href="login.php">Login</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="register.html">Register</a>
+        <a class="nav-link" href="register.php">Register</a>
       </li>
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
