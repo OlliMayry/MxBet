@@ -39,4 +39,3 @@ else{
   header("location: ../register.php");
   exit();
 }
-}
