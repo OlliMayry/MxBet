@@ -11,7 +11,7 @@ include_once 'header.php';
     </div>
     <ul class="nav nav-pills">
       <li class="nav-item">
-        <a class="nav-link active" href="index.php">Home</a>
+        <a class="nav-link active" href="MxBet.php">Home</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="login.php">Login</a>
